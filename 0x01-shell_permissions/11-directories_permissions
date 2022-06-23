@@ -1,2 +1,2 @@
 #!/bin/bash
-i am good
+chmod u+x . -type d
