@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | grep -o ":" | wc -l 
+echo -e /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin | tr ':' '\n' | wc -l
